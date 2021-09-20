@@ -1,0 +1,24 @@
+<h1>Vengadores !!!</h1>
+
+<button (click)='borrarVengador()'>Borrar Vengador</button>
+<button (click)='allVengadores()'>Restablecer</button>
+
+<ul>
+  <li *ngFor="let heroe of vengadores; let i = index">
+    {{ i + 1 }} - {{ heroe }}
+  </li>
+</ul>
+
+<div *ngIf="heroe; else msj">
+  <h2>Heroe borrado: </h2>
+  <h4>{{ heroe }}</h4>
+
+</div>
+
+<ng-template #msj>
+  <h2 *ngIf="vengadores.length != 0">Click "Borrar Vengador"</h2>
+  <h2 *ngIf="vengadores.length == 0">Click "Restablecer"</h2>
+</ng-template>
+
+
+

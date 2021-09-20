@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(126, 126, 126);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 40px;
+  margin: 0;
+}
+
+h2,h3,h4,h5{
+  margin-left: 35px;
+}
+
+hr {
+  margin-bottom: 50px;
+}
+
+button {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  color: rgb(126, 126, 126);
+  border: none;
+  margin: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 48px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 5px 5px 22px #949494, -5px -5px 22px #ffffff;
+}
+
+button:active{
+  box-shadow: 5px 5px 22px #505050, -5px -5px 22px #ffffff;
+}
+
+
+span{
+  color: rgb(134, 3, 3);
+  font-size: 30px;
+}
+
+
+dl{
+  margin-left: 40px;
+}
+dd{
+  font-weight: bold;
+  margin: 5px 30px;
+}
+
+ul{
+  margin-left: 50px;
+}
+
+li{
+  margin-bottom: 5px;
+  font-weight: bold;
+  list-style: none;
+}
