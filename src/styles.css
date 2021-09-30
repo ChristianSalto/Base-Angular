@@ -14,7 +14,10 @@ h1 {
   margin: 0;
 }
 
-h2,h3,h4,h5{
+h2,
+h3,
+h4,
+h5 {
   margin-left: 35px;
 }
 
@@ -36,31 +39,51 @@ button {
   box-shadow: 5px 5px 22px #949494, -5px -5px 22px #ffffff;
 }
 
-button:active{
+button:active {
   box-shadow: 5px 5px 22px #505050, -5px -5px 22px #ffffff;
 }
 
-
-span{
+span {
   color: rgb(134, 3, 3);
   font-size: 30px;
 }
 
-
-dl{
+dl {
   margin-left: 40px;
 }
-dd{
+dd {
   font-weight: bold;
   margin: 5px 30px;
 }
 
-ul{
+ul {
   margin-left: 50px;
 }
 
-li{
+li {
   margin-bottom: 5px;
   font-weight: bold;
   list-style: none;
+}
+
+/*************** DBZ *************/
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  width: 45%;
+}
+
+input {
+  display: block;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 5px 5px 20px #bebebe,
+  -5px -5px 20px #ffffff;
+  margin: 20px;
+  border: none;
+  padding: 10px;
+  outline: none;
 }
